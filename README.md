@@ -1,6 +1,6 @@
 # SpritUI
 
-![SpritUI](banner.png)
+![SpritUI](https://raw.githubusercontent.com/SpritHub/android/10.x/banner.png)
 
 > If you are tired with flashing Native Android, try SpritUI.
 
