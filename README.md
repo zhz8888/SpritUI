@@ -24,7 +24,7 @@ SpritUI is a High-Customize UI Android Project, based on AospExtended.
 
 ## How to Build?
 
-### Initialize local SpritUI repository
+### Initialize local SpritUI clone
 
 ```bash
   repo init -u git://github.com/SpritHub/manifest.git -b 10.x
@@ -45,5 +45,5 @@ To initialize a shallow clone, which will save even more space & time, use a com
 ```bash
   . build/envsetup.sh
   lunch aosp_{device_codename}-userdebug
-  mka aex -j$(nproc --all) | tee log.txt
+  mka sprit -j$(nproc --all) | tee build.log
 ```
