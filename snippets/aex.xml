@@ -2,11 +2,11 @@
 <manifest>
 
   <!-- AospExtended -->
-  <project path="manifest" name="manifest" remote="aex" />
+  <project path="manifest" name="manifest" remote="sprit" />
   <project path="art" name="platform_art" groups="pdk" remote="aex" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="aex" />
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="aex" />
-  <project path="build/make" name="platform_build" groups="pdk" remote="aex" >
+  <project path="build/make" name="platform_build" groups="pdk" remote="sprit" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -15,11 +15,11 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed" remote="aex" >
+  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed" remote="sprit" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="device/aosp/sepolicy" name="platform_device_aosp_sepolicy" remote="aex" />
+  <project path="device/aosp/sepolicy" name="platform_device_aosp_sepolicy" remote="sprit" />
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="lineage" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aex" />
   <project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aex" revision="10.x-legacy" />
@@ -36,23 +36,23 @@
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="aex" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk" remote="aex" />
   <project path="hardware/ril" name="platform_hardware_ril" groups="pdk" remote="aex" />
-  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="aex" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="aex" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="aex" />
-  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="aex" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="aex" />
+  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="sprit" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="sprit" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="sprit" />
+  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="sprit" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="sprit" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-fs" remote="aex" />
-  <project path="packages/apps/Calendar" name="platform_packages_apps_Calendar" groups="pdk-fs" remote="aex" />
-  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/Calendar" name="platform_packages_apps_Calendar" groups="pdk-fs" remote="sprit" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="sprit" />
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" groups="pdk-fs" remote="aex" />
-  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="sprit" />
   <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="aex" />
   <project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" remote="aex" />
-  <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" groups="pdk-fs" remote="aex" />
-  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="aex" />
-  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" groups="pdk-fs" remote="sprit" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="sprit" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" groups="pdk-fs" remote="sprit" />
   <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" groups="pdk,tradefed" remote="aex" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="aex" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="sprit" />
   <project path="packages/apps/SettingsIntelligence" name="platform_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/Snap" name="platform_packages_apps_Snap" remote="aex" />
   <project path="packages/apps/Updates" name="platform_packages_apps_Updates" groups="pdk-fs" remote="aex" />
@@ -64,20 +64,20 @@
   <project path="packages/resources/devicesettings" name="platform_packages_resources_devicesettings" remote="aex" />
   <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="aex" />
   <project path="packages/overlays/Themes" name="platform_packages_overlays_Themes" remote="aex" />
-  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aex" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aex" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="sprit" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aprit" />
   <project path="platform_testing" name="platform_platform_testing" groups="pdk-fs,pdk-cw-fs,cts" remote="aex" />
   <project path="prebuilts/tools-aosp" name="platform_prebuilts_tools-aosp" clone-depth="1" remote="aex" />
-  <project path="system/bt"  name="platform_system_bt" groups="pdk" remote="aex" />
-  <project path="system/core" name="platform_system_core" groups="pdk" remote="aex" />
+  <project path="system/bt"  name="platform_system_bt" groups="pdk" remote="sprit" />
+  <project path="system/core" name="platform_system_core" groups="pdk" remote="sprit" />
   <project path="system/hardware/interfaces" name="platform_system_hardware_interfaces" groups="pdk" remote="aex" />
   <project path="system/keymaster" name="platform_system_keymaster" groups="pdk" remote="aex" />
-  <project path="system/netd" name="platform_system_netd" groups="pdk" remote="aex" />
+  <project path="system/netd" name="platform_system_netd" groups="pdk" remote="sprit" />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="aex" />
   <project path="system/update_engine" name="platform_system_update_engine" groups="pdk" remote="aex" />
-  <project path="system/vold" name="platform_system_vold" groups="pdk" remote="aex" />
-  <project path="vendor/gapps" name="platform_vendor_gapps" remote="aex-lab" clone-depth="1" />
-  <project path="vendor/aosp" name="platform_vendor_aosp" remote="aex" />
+  <project path="system/vold" name="platform_system_vold" groups="pdk" remote="sprit" />
+  <!-- <project path="vendor/gapps" name="platform_vendor_gapps" remote="aex-lab" clone-depth="1" /> -->
+  <project path="vendor/aosp" name="platform_vendor_aosp" remote="sprit" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="aex" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" remote="aex" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="aex"  />

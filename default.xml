@@ -14,6 +14,10 @@
   <remote  name="aex"
            fetch="https://github.com/AospExtended"
            revision="refs/heads/10.x" />
+  
+  <remote  name="sprit"
+           fetch="https://github.com/SpritHub"
+           revision="refs/heads/10.x" />
 
   <remote  name="aex-lab"
            fetch="https://gitlab.com/AospExtended"
