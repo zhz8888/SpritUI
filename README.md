@@ -1,8 +1,10 @@
 # SpritUI
 
-![SpritUI](https://raw.githubusercontent.com/SpritHub/android/10.x/banner.png)
+![SpritUI](https://s1.ax1x.com/2020/07/17/UsWFGn.png)
 
 > If you are tired with flashing Native Android, try SpritUI.
+
+SpritUI is a High-Customize UI Android Project, based on AospExtended.
 
 ## Credits
 * [**AospExtended**](https://github.com/AospExtended)
