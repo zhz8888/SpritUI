@@ -1,6 +1,8 @@
 # SpritUI
 
-![SpritUI](https://s1.ax1x.com/2020/07/17/UsWFGn.png)
+<p align="center">
+<img src="https://s1.ax1x.com/2020/07/17/UsWFGn.png" > 
+</p>
 
 > If you are tired with flashing Native Android, try SpritUI.
 
@@ -22,8 +24,7 @@ SpritUI is a High-Customize UI Android Project, based on AospExtended.
 
 ## How to Build?
 
-To initialize your local repository using the SpritUI trees, use a 
-command like this:
+### Initialize local SpritUI repository
 
 ```bash
   repo init -u git://github.com/SpritHub/manifest.git -b 10.x
