@@ -19,7 +19,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="device/aosp/sepolicy" name="platform_device_aosp_sepolicy" remote="sprit" />
+  <project path="device/aosp/sepolicy" name="platform_device_aosp_sepolicy" remote="aex" />
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="lineage" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aex" />
   <project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aex" revision="10.x-legacy" />
@@ -46,8 +46,8 @@
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="sprit" />
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" groups="pdk-fs" remote="aex" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="sprit" />
-  <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="aex" />
-  <project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" remote="aex" />
+  <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="sprit" />
+  <project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" remote="sprit" />
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" groups="pdk-fs" remote="sprit" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="sprit" />
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" groups="pdk-fs" remote="sprit" />
