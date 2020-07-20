@@ -13,6 +13,7 @@ SpritUI is a High-Customize UI Android Project, based on AospExtended.
 * [**JDCTeam**](https://github.com/AOSP-JF-MM)
 * [**DirtyUnicorns**](https://github.com/DirtyUnicorns)
 * [**TeamSubstratum (Theme Engine)**](https://github.com/Substratum)
+* [**LawnchairLauncher (Launcher)**](https://github.com/LawnchairLauncher)
 * [**LineageOS/Cyanogenmod**](https://github.com/LineageOS)
 * [**Nitrogen Project**](https://github.com/nitrogen-project)
 * [**ABC ROM**](https://github.com/ezio84)
