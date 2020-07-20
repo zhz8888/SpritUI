@@ -50,7 +50,6 @@
   <project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" remote="sprit" />
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" groups="pdk-fs" remote="sprit" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="sprit" />
-  <project path="packages/apps/Lawnchair" name="platform_packages_apps_Lawnchair" groups="pdk-fs" remote="sprit" revision="alpha"/>
   <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" groups="pdk-fs" remote="sprit" />
   <project path="packages/apps/PermissionController" name="platform_packages_apps_PackageInstaller" groups="pdk,tradefed" remote="aex" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="sprit" />
@@ -66,7 +65,7 @@
   <project path="packages/apps/WallpaperPicker2" name="platform_packages_apps_WallpaperPicker2" remote="aex" />
   <project path="packages/overlays/Themes" name="platform_packages_overlays_Themes" remote="aex" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="sprit" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aprit" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="sprit" />
   <project path="platform_testing" name="platform_platform_testing" groups="pdk-fs,pdk-cw-fs,cts" remote="aex" />
   <project path="prebuilts/tools-aosp" name="platform_prebuilts_tools-aosp" clone-depth="1" remote="aex" />
   <project path="system/bt"  name="platform_system_bt" groups="pdk" remote="sprit" />
