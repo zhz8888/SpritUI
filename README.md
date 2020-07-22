@@ -28,12 +28,12 @@ SpritUI is a High-Customize UI Android Project, based on AospExtended.
 ### Initialize local SpritUI clone
 
 ```bash
-  repo init -u git://github.com/SpritHub/manifest.git -b 10.x
+  repo init -u https://github.com/SpritHub/manifest.git -b 10.x
 ```
 To initialize a shallow clone, which will save even more space & time, use a command like this:
 
 ```bash
-  repo init --depth=1 -u git://github.com/SpritHub/manifest.git -b 10.x
+  repo init -u https://github.com/SpritHub/manifest.git -b 10.x --depth=1
 ```
   
 ### Then to sync up:
